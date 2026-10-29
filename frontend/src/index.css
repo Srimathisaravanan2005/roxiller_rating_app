@@ -1,0 +1,30 @@
+:root {
+  font-family: 'DM Sans', 'Segoe UI', sans-serif;
+  color: #17241d;
+  background: #f3f5f0;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  letter-spacing: 0;
+  --ink: #17241d;
+  --muted: #6e7c72;
+  --paper: #f3f5f0;
+  --white: #ffffff;
+  --line: #dce3db;
+  --green: #17684d;
+  --green-dark: #104c39;
+  --green-pale: #e6f0e9;
+  --orange: #c96e3f;
+  --danger: #a63c35;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button, input, select, textarea { font: inherit; letter-spacing: 0; }
+button { cursor: pointer; }
+button:disabled { cursor: not-allowed; opacity: 0.65; }
+a { color: inherit; }
+#root { min-height: 100vh; }
